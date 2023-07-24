@@ -58,3 +58,19 @@ h3 {
     font-family: var(--font-family);
     font-weight: 600;
 }
+
+@keyframes game__over {
+    25% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+
+.game__over {
+    color: red;
+    -webkit-animation: game__over .9s linear infinite;
+    -moz-animation: game__over .9s linear infinite;
+    -ms-animation: game__over .9s linear infinite;
+    -o-animation: game__over .9s linear infinite;
+    animation: game__over .9s linear infinite;
+}
